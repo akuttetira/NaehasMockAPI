@@ -1,0 +1,23 @@
+{
+  "name": "naehasmockapi",
+  "version": "1.0.0",
+  "description": "Naehas Mock API built with Node.JS, Express, and PostgreSQL",
+  "license": "ISC",
+  "author": "Anish Kuttetira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node-pg-migrate"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^8.0.3"
+  }
+}
